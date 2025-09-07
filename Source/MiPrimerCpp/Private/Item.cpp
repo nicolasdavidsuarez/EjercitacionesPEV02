@@ -67,6 +67,7 @@ void AItem::Tick(float DeltaTime)
 void AItem::NotifyActorBeginOverlap(AActor* OtherActor)
 {
 	Super::NotifyActorBeginOverlap(OtherActor);
-	 
+	//AItem* MiItem = Cast<AItem>(OtherActor);
+	
 }
 
